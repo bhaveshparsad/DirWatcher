@@ -23,10 +23,7 @@ $ go get github.com/fsnotify/fsnotify
 ## Database Setup
 - Create a PostgreSQL database and note the connection URL
 
-- Replace "yourusername", "yourpassword", "yourdbname", and "yourhost" with your actual database credentials
-```bash 
-psql -U yourusername -h yourhost -c "CREATE DATABASE yourdbname;"
-```
+- Replace "yourusername", "yourpassword", "yourdbname" with your actual database credentials
 
 ## Running the Application
 ```bash 
